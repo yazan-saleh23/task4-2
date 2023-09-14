@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    background-image: url(./../img/photo_2023-09-12_05-23-03.jpg);
+    min-width: max-content;
+    background-size: cover;
+    color: white;
+    min-height: 500px;
+}
+.main-nav .firstnav .first a{
+    text-decoration: none;
+    color: white;
+}
+.firstnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px ;
+}
+.second{
+    display: flex;
+    gap: 30px;
+}
+hr{
+    margin: 0;
+}
+.pio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+nav .container-fluid .navbar-brand text-white{
+    padding: 0 30px;
+}
+.card {
+    flex-direction: row;
+    background-color: rgb(235, 235, 218);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    color: rgb(35, 91, 175);
+    
+}
+.margin-top-10{
+    margin-top: 10rem;
+}
+rounded float-end{
+    width: 324px;
+    position: absolute;
+    z-index: 2;
+    left: 64%;
+}
+.instructor img{
+    width: 324px;
+    position: absolute;
+    z-index: 2;
+    left: 64%;
+}
+.instructor{
+    display: contents;
+}
+.icon-blue{
+    color:rgb(35, 91, 175);
+    background-color: aliceblue;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border-radius: 500px;
+    border: 1px solid blue;
+}
+.card-section-4{
+    background-color: rgb(235, 235, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.right-course{
+    background-color:rgb(235, 235, 218) ;
+}
+.right-course .card-flex-direction-column{
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(26, 74, 206);
+    border-radius: 5px;
+}
+.color-blue{
+    color:rgb(26, 74, 206) ;
+}
+.color-yellow{
+    color: rgb(218, 168, 7);
+}
+.bg-rgb{
+    background-color: rgb(235, 235, 218);
+}
+.icon-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.right{
+    display: flex;
+    gap: 3px;
+}
+.padding-4{
+    padding: 4px;
+}
+.background-cover{
+    min-width: -webkit-fill-available;
+    height: 80vh;
+}
+.Education-for-tomorrows-leaders{
+    background-image: url(./../img/photo_2023-09-12_05-22-55.jpg);
+    min-width: max-content;
+    background-size: cover;
+    color: white;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.table{
+    margin-top: 20px;
+}
+.tow-button{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+.border-radius-40{
+    border-radius: 40px;
+}
+.about-us{
+    display: contents;
+}
+.img .video{
+    width: 350px;
+    position: absolute;
+    z-index: 2;
+    left: 60%;
+    margin-top: 20px;
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.school-news img{
+    height: 235px;
+    margin: 2px;
+}
+.padding-6{
+    padding-top: 6px;
+}
+.text-section-11{
+    width: 500px;
+}
+.d-flex justify-content-center{
+    padding: 10% 0 5% 0;
+    gap: 30px;
+}
+.icon-plus{
+    display: flex;
+    padding-top: 10pxpx;
+}
+.margin-right{
+    width: 100px;
+    height: 140px;
+    margin-right: 10px;
+    margin: 0 10px 20px 0;
+}
+.photos-footer{
+    width: 50px;
+    height: 50px;
+}
+.connect{
+    width: 245px;
+}
+
+@media screen and (max-width : 992px) {
+    .media{
+        position: absolute;
+    }
+    .instructor{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .instructor img{
+        width: 300px;
+        position: initial;
+        margin: 30px;
+    }
+    .text m-5{
+        width: auto;
+    }
+    .browse .container .row{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .browse .container .row .col-lg-3 col-md-6 col-sm-12{
+        display: flex;
+        justify-content: center;
+    }
+    .img .video{
+        width: 350px;
+        position: relative;
+        margin: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 50%);
+    } 
+    }
+body{
+    font-family: auto;
+}
